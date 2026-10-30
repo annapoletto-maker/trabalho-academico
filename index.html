@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- Declara que o documento usa HTML5. -->
+<html lang="pt-BR">
+<!-- Elemento raiz: tudo da página fica dentro dele. lang indica o idioma. -->
+<head>
+  <!-- Codificação UTF-8: exibe corretamente acentos e cedilha. -->
+  <meta charset="UTF-8">
+  <!-- Viewport: ajusta a página à largura da tela (celular, tablet, PC). -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Título que aparece na aba do navegador. -->
+  <title>Meu perfil acadêmico</title>
+
+  <style>
+    /* Cor de fundo da página, fonte e espaçamento externo. */
+    body {
+      background-color: #eef2f7;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 24px 16px;
+    }
+
+    /* Título principal: cor de texto azul-escuro e centralizado. */
+    h1 {
+      color: #1d3557;
+      text-align: center;
+      font-size: 32px;
+    }
+
+    /* Caixa 1 (perfil): fundo branco, espaço interno (padding)
+       e borda azul de 2px com cantos arredondados. */
+    .perfil {
+      background-color: #ffffff;
+      padding: 20px;
+      border: 2px solid #2a6f97;
+      border-radius: 10px;
+      max-width: 640px;
+      margin: 0 auto 20px auto;
+    }
+
+    /* Caixa 2 (objetivos): fundo amarelo-claro, padding e borda tracejada laranja. */
+    .objetivos {
+      background-color: #fff6e5;
+      padding: 20px;
+      border: 2px dashed #c0701f;
+      border-radius: 10px;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+
+    /* Subtítulo da caixa perfil: cor azul. */
+    .perfil h2 {
+      color: #2a6f97;
+    }
+
+    /* Subtítulo da caixa objetivos: cor laranja-escuro. */
+    .objetivos h2 {
+      color: #9c4a1a;
+    }
+
+    /* Parágrafos: cor de texto cinza-escuro e espaçamento entre linhas. */
+    p {
+      color: #333333;
+      line-height: 1.6;
+    }
+
+    /* Itens da lista de interesses: cor verde-escuro. */
+    li {
+      color: #2d6a4f;
+      line-height: 1.7;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Título principal da página. -->
+  <h1>Meu perfil acadêmico</h1>
+
+  <!-- Primeira div (classe "perfil"): quem sou eu, formação e interesses. -->
+  <div class="perfil">
+    <h2>Sobre mim</h2>
+    <!-- EDITE: troque [Seu nome] e os textos por informações suas. -->
+    <p>
+      Olá! Meu nome é [Seu nome] e sou estudante do curso de Análise e
+      Desenvolvimento de Sistemas (ADS), na modalidade a distância (EaD).
+      Estou na 1ª fase e estou começando minha jornada na área de tecnologia.
+    </p>
+    <p>
+      Nesta fase, estou aprendendo a base da programação para a web, como
+      HTML, CSS e JavaScript, e a organizar meus estudos à distância.
+    </p>
+
+    <h2>Meus interesses</h2>
+    <ul>
+      <li>Desenvolvimento de sites e aplicativos</li>
+      <li>Lógica de programação</li>
+      <li>Banco de dados</li>
+    </ul>
+  </div>
+
+  <!-- Segunda div (classe "objetivos"): o que quero aprender em tecnologia. -->
+  <div class="objetivos">
+    <h2>O que quero aprender</h2>
+    <p>
+      Quero aprender desenvolvimento web com JavaScript, para criar páginas
+      interativas e, no futuro, sistemas completos. Pretendo praticar com
+      pequenos projetos e publicá-los no GitHub para mostrar minha evolução.
+    </p>
+  </div>
+
+</body>
+</html>
